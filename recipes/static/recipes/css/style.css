@@ -75,6 +75,10 @@ h6 {
     padding: var(--spacing-gutter-medium);
 }
 
+.center{
+    text-align: center;
+}
+
 
 .main-header-container {
     background: var(--color-primary-dark);
