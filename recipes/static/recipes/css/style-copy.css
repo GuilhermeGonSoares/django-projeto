@@ -543,3 +543,8 @@
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
   }
+
+  .pagination {
+    display: inline;
+    padding-right: 4px;
+  }
