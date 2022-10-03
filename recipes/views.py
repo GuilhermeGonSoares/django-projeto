@@ -22,6 +22,7 @@ class RecipeViews:
         page_obj = paginator.get_page(number_page)
         pagination = make_pagination(5, paginator.num_pages, page_obj.number)    
 
+
         return render(request, 'recipes/pages/home.html', context={
             'page_obj': page_obj,
             'pagination': pagination,
